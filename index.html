@@ -4,11 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+   <div class="container">
+    <h1 id="gameh1"></h1>
+    <div class="players-container">
+        <h3>Player: <span id="playerScore">0</span></h3>
+        <h3>Computer: <span id="computerScore">0</span></h3>
+    </div>
+    <div id="output">who score 5 point first win the game</div>
+    <div class="choosen-box">
+        <img src="img/rock.jpg" class="choice" id="rock" title="rock">
+        <img src="img/paper.png" class="choice" id="paper" title="paper">
+        <img src="img/scissors.png" class="choice" id="scissors" title="scissors">
+    </div>
     
-<h1 style="text-align: center;">ROCK PAPER SCISSORS</h1>
+    <p id="countDown"> </p>
+  <button id="reset">Play Again</button>
+   </div> 
 
+    
 
     <script src="main.js"></script>
 </body>
